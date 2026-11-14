@@ -1,0 +1,25 @@
+Scenario,Dataset,Classifier,Variant,DP_Diff,DIR,Consistency,Accuracy,BalancedAcc,F1
+A: S not used for prediction,Adult,LogReg,Baseline,-0.185 ± 0.003,0.302 ± 0.005,0.960 ± 0.001,0.846 ± 0.002,0.764 ± 0.002,0.659 ± 0.002
+A: S not used for prediction,Adult,LogReg,Reweighing,-0.103 ± 0.006,0.547 ± 0.019,0.960 ± 0.000,0.842 ± 0.002,0.751 ± 0.002,0.642 ± 0.003
+A: S not used for prediction,Adult,RandomForest,Baseline,-0.183 ± 0.002,0.282 ± 0.005,0.964 ± 0.001,0.860 ± 0.002,0.777 ± 0.002,0.684 ± 0.004
+A: S not used for prediction,Adult,RandomForest,Reweighing,-0.100 ± 0.002,0.534 ± 0.010,0.963 ± 0.001,0.855 ± 0.002,0.762 ± 0.003,0.664 ± 0.005
+A: S not used for prediction,German,LogReg,Baseline,-0.114 ± 0.036,0.852 ± 0.044,0.814 ± 0.016,0.745 ± 0.016,0.673 ± 0.030,0.824 ± 0.011
+A: S not used for prediction,German,LogReg,Reweighing,-0.076 ± 0.056,0.901 ± 0.071,0.813 ± 0.017,0.738 ± 0.012,0.661 ± 0.031,0.820 ± 0.005
+A: S not used for prediction,German,RandomForest,Baseline,-0.029 ± 0.049,0.967 ± 0.056,0.876 ± 0.012,0.757 ± 0.018,0.632 ± 0.027,0.845 ± 0.011
+A: S not used for prediction,German,RandomForest,Reweighing,0.009 ± 0.027,1.010 ± 0.032,0.886 ± 0.018,0.758 ± 0.014,0.631 ± 0.025,0.846 ± 0.008
+A: S not used for prediction,COMPAS,LogReg,Baseline,-0.248 ± 0.018,0.658 ± 0.020,0.964 ± 0.003,0.674 ± 0.007,0.670 ± 0.007,0.705 ± 0.009
+A: S not used for prediction,COMPAS,LogReg,Reweighing,-0.247 ± 0.015,0.665 ± 0.015,0.962 ± 0.002,0.675 ± 0.008,0.671 ± 0.008,0.709 ± 0.009
+A: S not used for prediction,COMPAS,RandomForest,Baseline,-0.225 ± 0.023,0.688 ± 0.030,0.938 ± 0.006,0.668 ± 0.012,0.664 ± 0.013,0.703 ± 0.009
+A: S not used for prediction,COMPAS,RandomForest,Reweighing,-0.227 ± 0.024,0.685 ± 0.032,0.929 ± 0.008,0.664 ± 0.014,0.660 ± 0.015,0.698 ± 0.011
+B: S used for prediction,Adult,LogReg,Baseline,-0.192 ± 0.003,0.286 ± 0.005,0.959 ± 0.001,0.846 ± 0.002,0.765 ± 0.002,0.661 ± 0.003
+B: S used for prediction,Adult,LogReg,Reweighing,-0.095 ± 0.005,0.576 ± 0.020,0.959 ± 0.001,0.842 ± 0.002,0.750 ± 0.002,0.640 ± 0.004
+B: S used for prediction,Adult,RandomForest,Baseline,-0.184 ± 0.002,0.277 ± 0.005,0.964 ± 0.002,0.860 ± 0.002,0.776 ± 0.002,0.683 ± 0.004
+B: S used for prediction,Adult,RandomForest,Reweighing,-0.096 ± 0.002,0.549 ± 0.011,0.963 ± 0.001,0.855 ± 0.002,0.761 ± 0.003,0.663 ± 0.004
+B: S used for prediction,German,LogReg,Baseline,-0.210 ± 0.015,0.733 ± 0.027,0.816 ± 0.015,0.742 ± 0.009,0.670 ± 0.027,0.822 ± 0.004
+B: S used for prediction,German,LogReg,Reweighing,-0.045 ± 0.031,0.941 ± 0.040,0.813 ± 0.013,0.741 ± 0.014,0.665 ± 0.032,0.822 ± 0.007
+B: S used for prediction,German,RandomForest,Baseline,-0.074 ± 0.065,0.916 ± 0.073,0.875 ± 0.012,0.756 ± 0.017,0.633 ± 0.026,0.844 ± 0.010
+B: S used for prediction,German,RandomForest,Reweighing,0.015 ± 0.049,1.017 ± 0.058,0.880 ± 0.019,0.764 ± 0.014,0.640 ± 0.024,0.849 ± 0.008
+B: S used for prediction,COMPAS,LogReg,Baseline,-0.287 ± 0.026,0.617 ± 0.023,0.964 ± 0.001,0.676 ± 0.008,0.672 ± 0.007,0.707 ± 0.010
+B: S used for prediction,COMPAS,LogReg,Reweighing,-0.002 ± 0.026,0.998 ± 0.043,0.957 ± 0.003,0.666 ± 0.011,0.660 ± 0.010,0.704 ± 0.011
+B: S used for prediction,COMPAS,RandomForest,Baseline,-0.234 ± 0.024,0.678 ± 0.027,0.947 ± 0.005,0.669 ± 0.008,0.664 ± 0.008,0.703 ± 0.007
+B: S used for prediction,COMPAS,RandomForest,Reweighing,-0.084 ± 0.021,0.867 ± 0.030,0.934 ± 0.006,0.665 ± 0.009,0.661 ± 0.009,0.697 ± 0.010
